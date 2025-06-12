@@ -14,19 +14,20 @@
     {% seo %}
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
-        <img src="{{ site.logo | relative_url }}" alt="Logo" />
-        <p>{{ site.description }}</p>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <img src="{{site.logo | relative_url}}" alt="Logo" />
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>Twitter: <a href="{{ site.twitter_url }}">{{ site.twitter_handle }}</a></p>
       </header>
 
-      <main>
+      <section>
         {{ content }}
-      </main>
+      </section>
 
       <footer>
         <p><small>© {{ site.title }}. Powered by <a href="https://jekyllrb.com">Jekyll</a>.</small></p>
