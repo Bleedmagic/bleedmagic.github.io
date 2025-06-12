@@ -28,11 +28,15 @@ I'm just getting started, but here are some areas I’m exploring:
 
 Future projects will appear here as I grow.
 
+<!-- ## Blog
+
+Links blog here, if I ever get around to doing one. -->
+
 ## Contact
 
 Feel free to reach out or follow my progress:
 
 - [bleedmagic@proton.me](mailto:bleedmagic@proton.me)
-- [GitHub Profile](https://github.com/bleedmagic)
+- [Bleedmagic's Github](https://github.com/bleedmagic)
 
 > Thanks for stopping by. This page will evolve as I do.
