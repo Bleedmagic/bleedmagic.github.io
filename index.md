@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Bleedmagic
+# Victor Vasquez
 
 Welcome to my personal GitHub Page. I'm currently exploring software development, building projects, and learning new technologies. This site will serve as a central hub for my work and updates.
 

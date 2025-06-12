@@ -7,13 +7,9 @@
 
     <title>{{ page.title }} | {{ site.title }}</title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
-
-    <!-- SEO -->
     {% seo %}
-
-    <!-- Styles -->
+    
+    <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
@@ -30,7 +26,7 @@
       </section>
 
       <footer>
-        <p><small>© {{ site.title }}. Powered by <a href="https://jekyllrb.com">Jekyll</a>.</small></p>
+        Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a>
       </footer>
     </div>
 
