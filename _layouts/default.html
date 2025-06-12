@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
+
+    <!-- SEO -->
+    {% seo %}
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+        <img src="{{ site.logo | relative_url }}" alt="Logo" />
+        <p>{{ site.description }}</p>
+      </header>
+
+      <main>
+        {{ content }}
+      </main>
+
+      <footer>
+        <p><small>© {{ site.title }}. Powered by <a href="https://jekyllrb.com">Jekyll</a>.</small></p>
+      </footer>
+    </div>
+
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>

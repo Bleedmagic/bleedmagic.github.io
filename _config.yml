@@ -1,12 +1,20 @@
-title: 'Victor Vasquez'
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+title: 'Bleedmagic'
 logo: ./assets/img/logo.png
 description: 'Networking, Security, Web Development'
 show_downloads: false
 theme: jekyll-theme-minimal
 
+permalink: /:title
+url: https://bleedmagic.github.io/
+timezone: Asia/Manila
+
+twitter_handle: '@Bleedmagic87'
+twitter_url: https://x.com/Bleedmagic87
+
 exclude:
   - README.md
-
-url: https://bleedmagic.github.io/
-
-timezone: Asia/Manila
+  - LICENSE
